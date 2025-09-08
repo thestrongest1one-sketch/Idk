@@ -1,0 +1,1117 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+
+
+local Window = Rayfield:CreateWindow({
+
+   Name = "Radiant Hub",
+
+   Icon = 125056596455603, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+
+   LoadingTitle = "wait...",
+
+   LoadingSubtitle = "by Null",
+
+   ShowText = "Radiant Hub", -- for mobile users to unhide rayfield, change if you'd like
+
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+
+
+   ToggleUIKeybind = "P", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+
+
+   DisableRayfieldPrompts = false,
+
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+
+
+   ConfigurationSaving = {
+
+      Enabled = false,
+
+      FolderName = NeoV2, -- Create a custom folder for your hub/game
+
+      FileName = "neo Hub"
+
+   },
+
+
+
+   Discord = {
+
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+
+      Invite = "fhy6ccJqJu", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+
+   },
+
+
+
+   KeySystem = true, -- Set this to true to use our key system
+
+   KeySettings = {
+
+      Title = "Insert Key",
+
+      Subtitle = "Key System",
+
+      Note = "Discord: https://discord.gg/dyjRZgvVHx", -- Use this to tell the user how to get a key
+
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+
+      Key = {"Wuwu'sTightsOnTop","EBhubSucks","NullTheGoat"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+
+   }
+
+})
+
+local Tab1 = Window:CreateTab("The Strongest Hero", 15114667107) -- Title, Image
+
+local Tab2 = Window:CreateTab("Hero Hunter", 15124465439) -- Title, Image
+
+local Tab3 = Window:CreateTab("Monster Form", 120815996782931) -- Title, Image
+
+local Tab4 = Window:CreateTab("Destructive Cyborg", 15143528856) -- Title, Image
+
+local Tab5 = Window:CreateTab("Deadly Ninja", 15114672498) -- Title, Image
+
+local Tab6 = Window:CreateTab("Brutal Demon", 15143529209) -- Title, Image
+
+local Tab7 = Window:CreateTab("Blade Master", 15143528539) -- Title, Image
+
+local Tab8 = Window:CreateTab("Wild Psychic", 16136325038) -- Title, Image
+
+local Tab9 = Window:CreateTab("Martial Artist", 18434673438) -- Title, Image
+
+local Tab10 = Window:CreateTab("Tech Prodigy", 113596928331434) -- Title, Image
+
+local Tab11 = Window:CreateTab("KJ", 17140853847) -- Title, Image
+
+local Tab12 = Window:CreateTab("Universal Characters", 12285568530) -- Title, Image
+
+local Tab14 = Window:CreateTab("Extras", 15143528348) -- Title, Image
+
+local Tab15 = Window:CreateTab("Infinite Realm", 91899581218987) -- Title, Image
+
+
+
+-- Saitama
+
+
+
+local Section = Tab1:CreateSection("Jujutsu Kaisen")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Meguna",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastefy.app/3dQB5Mv5/raw"))();
+
+   end,
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Heian Sukuna",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/whendoesbrickdie/main/tspno.txt",true))()
+
+   end,
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Yuji X Sukuna",
+
+   Callback = function()
+
+getgenv().secret = false -- unknown (don't set true)
+
+getgenv().Dance = true --- dance boppin
+
+getgenv().fog = true ---set true if you want cool cloud
+
+getgenv().infinitedash = false ---set true if you want infinite dash sigma
+
+getgenv().night = false ---set true night 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Sigma%20v2%20vessel%20tp'))() 
+
+   end,
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "The Strongest",
+
+   Icon = 15143528348,
+
+   Callback = function()
+
+   getgenv().morph = true 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+   Name = "The Strongest [No Morph]",
+   Callback = function()
+   getgenv().morph = false 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+   end
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Hakari",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastefy.app/R9YJF35g/raw"))();
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Mahito Shibuya",
+
+   Callback = function()
+
+   getgenv().Swordm1= false -- set trueif you want have sword thing on mahito m1
+
+getgenv().night = false  -- set true if you want night 
+
+getgenv().plushie = true ---set true if you want plushie mahito 
+
+getgenv().blackflash = true ---set true if you want v1 truly black flash
+
+getgenv().chat = false ---set true if you visual to other pov that your mahito
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahito%20v2%20sigma%20tp%20exploit'))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Mahito",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+   Name = "Shibuya Yuji",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/QBXdwRC1/raw"))()
+   end
+})
+
+
+local Button = Tab1:CreateButton({
+   Name = "Blackflash",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/Ck2z0lcr/raw"))();
+   end
+})
+
+
+local Section = Tab1:CreateSection("Invincible")
+
+
+local Button = Tab1:CreateButton({
+   Name = "Invincible",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/BtDQqi2c/raw"))()
+   end
+})
+
+
+local Section = Tab1:CreateSection("One Punch Man")
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Alternative Saitama",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/JgmuyCjP"))()
+
+   end
+
+})
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Serious Saitama",
+
+   Callback = function()
+
+   loadstring(game:HttpGetAsync("https://github.com/sparksnaps/Saiatama/raw/refs/heads/main/Lua"))()
+
+   end
+
+})
+
+
+local Button = Tab1:CreateButton({
+   Name = "Lighting Max",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/6SVRyDUw"))()
+   end
+})
+
+local Section = Tab1:CreateSection("Naruto")
+
+
+local Button = Tab1:CreateButton({
+   Name = "Naruto And Madara (Sasuke Soon}",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Madara-moveset-50300"))()
+   end
+})
+
+
+local Section = Tab1:CreateSection("Dragon Ball")
+
+
+local Button = Tab1:CreateButton({
+   Name = "Namek Super Saiyan Goku [Removed]",
+   Callback = function()
+   
+   end
+})
+
+
+local Section = Tab1:CreateSection("Solo Leveling")
+
+
+
+local Section = Tab1:CreateSection("Original")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Gunner",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/XiBREwwK"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Orbit Warrior",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AeryAlex/Scripts/refs/heads/main/Orbitical%20Warrior%20(Obsfucted).lua"))()
+
+   end
+
+})
+
+
+
+local Section = Tab1:CreateSection("Stickmans")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Jun",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Shinji",
+
+   Callback = function()
+
+   getgenv().speedtools = true --- set true if you want use this tool if you want to run
+
+getgenv().speedpunch= true --- tp and normal Punch
+
+getgenv().dance= false --- set true if you want to this dance song made by rebzyyx all I want is you 
+
+getgenv().night= true -- set true if you want to day to night 
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Shinji%20tp%20exploit'))()
+
+task.wait(0.1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji%20VFX"))()
+
+task.wait(0.1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Shinji/refs/heads/main/Shinji.Ogg"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Jun X KJ",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://rawscripts.net/raw/KJ-The-Strongest-Battlegrounds-Jun-x-KJ-Made-By-Me-credit-to-wisp-for-idea-29885"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Wolf Fang Warrior",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-JUN-Moveset-19773"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Dragón Fist Legend",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/JqLgCLAL"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Kade KJ",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/SDMaDfNr"))()
+
+   end
+
+})
+
+
+
+local Section = Tab1:CreateSection("Forsaken")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Mafioso",
+
+   Callback = function()
+
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Lovelymoonlight/Lovelymoonlight/refs/heads/main/Baldy%20to%20mafioso'))()
+
+   end
+
+})
+
+
+
+local Section = Tab1:CreateSection("Heroes")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Wally West",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/west/refs/heads/main/Protected_4638864115822087.lua.txt"))()
+
+   end
+
+})
+
+
+
+local Section = Tab1:CreateSection("Other")
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Kratos",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/OmarW-Git-hub/Kratos-Remake/refs/heads/main/BroFinallyReleasedKratosV3.txt"))()
+
+   end
+
+})
+
+
+
+local Button = Tab1:CreateButton({
+
+   Name = "Cid Kagenou",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/sparksnaps/Lord-Shadow-Beta/refs/heads/main/Lua"))()
+
+   end
+
+})
+
+
+local Button = Tab1:CreateButton({
+   Name = "Sancho",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/0s4ZgFEM'))()
+   end
+})
+
+
+--Garou
+
+
+
+local Section = Tab2:CreateSection("Original")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Garou Rework",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/kuXQ6Pdm"))();
+
+   end,
+
+})
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Void Reaper",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Void%20Reaper%20Obfuscated.txt"))()
+
+   end
+
+})
+
+local Button = Tab2:CreateButton({
+   Name = "TP Guy",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Teleport%20Guy.txt", true))()
+   end
+})
+
+
+local Section = Tab2:CreateSection("Jujutsu Kaisen")
+
+
+local Button = Tab2:CreateButton({
+   Name = "JSS Megumi",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Kamyk-player/saitamatoMegumitenshadows/refs/heads/main/TENSHADOWSMAHORAGAULT"))()
+   end
+})
+
+
+local Button = Tab2:CreateButton({
+   Name = "Gojo",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Gojo-Moveset-TSB/refs/heads/main/Gojo%20Moveset"))()
+   end
+})
+
+
+
+local Section = Tab2:CreateSection("Speedsters")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Sonic.exe",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastefy.app/yzjyz9bZ/raw"))()
+
+   end,
+
+})
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "A-Train",
+
+   Callback = function()
+
+   getgenv().settings = {
+
+    ["morph"] = {
+
+        ["enabled"] = false,
+
+        ["dontchangeskincolor"] = false,
+
+    },
+
+    ["ult_forcewalkspeed"] = true, -- forces walkspeed even if set to 0
+
+    ["ult_walkspeed"] = 64, -- how fast you walk in ult
+
+    ["tp_duration"] = 0.15 -- how long it takes to tp
+
+} 
+
+ 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ATrainSounds/refs/heads/main/ATrain.lua"))()
+
+   end
+
+})
+
+
+
+local Section = Tab2:CreateSection("Ultrakill")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Gabriel",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/youinsinificants/main/insignificantFuck.txt",true))()
+
+   end
+
+})
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Minos Prime",
+
+   Callback = function()
+
+   _G.SkipIntro = true -- set to true if u want to skip minos prime intro
+
+_G.Night = false -- set to true if u want night
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"))()
+
+   end
+
+})
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "V1",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/GarouToV1/refs/heads/main/GarouToV1.txt"))()
+
+   end
+
+})
+
+
+
+local Section = Tab2:CreateSection("My Hero Academia")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Mastery Deku",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Mastery-Deku/refs/heads/main/Move-Names"))()
+
+   end
+
+})
+
+
+
+local Section = Tab2:CreateSection("ChainSaw Man")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Chainsaw Man",
+
+   Callback = function()
+
+   --/ run speed \\--
+
+getgenv().RunSpeed = 100
+
+
+
+--/ jump power while running \\--
+
+getgenv().RunJump = 100
+
+
+
+--/ instant kill (first and second skill) \\--
+
+getgenv().InstaKill = false
+
+
+
+--/ chance to revive after dying (100% in this case) \\--
+
+getgenv().RevivePercent = 40
+
+
+
+--// walk anim \\\--
+
+getgenv().ChangeWalk = true
+
+
+
+--/ idle anim \\--
+
+getgenv().ChangeIdle = true
+
+
+
+--/ night time \\--
+
+getgenv().Night = false
+
+
+
+--/ side dash no cooldown \\--
+
+getgenv().DashNoCooldown = false
+
+
+
+--/ extra skills \\--
+
+getgenv().ExtraSkills = true
+
+
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/CHAINSAW%20MAN/Chainsaw%20Man%20(Obfuscated).txt"))()
+
+   end
+
+})
+
+
+
+local Section = Tab2:CreateSection("Another")
+
+
+
+local Button = Tab2:CreateButton({
+
+   Name = "Alternative Garou",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/RiwNQsfe"))()
+
+   end
+
+})
+
+
+
+--infinite realm
+
+
+
+local Section = Tab15:CreateSection("Movesets")
+
+
+
+local Button = Tab15:CreateButton({
+
+   Name = "Goku for saitama",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NetlessScripter/GOKU/refs/heads/main/%5BBETA%20TESTING%5D%20GOKU"))()
+
+   end
+
+})
+
+
+
+local Button = Tab15:CreateButton({
+
+   Name = "Lighting Max for all",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NetlessScripter/LightningMax/refs/heads/main/Moveset"))()
+
+   end
+
+})
+
+
+
+local Button = Tab15:CreateButton({
+
+   Name = "Infinite Moveset for Saitama",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NetlessScripter/BEST-TSB-MOVESET/refs/heads/main/INFINITE%20MOVESET"))()
+
+   end
+
+})
+
+
+
+local Divider = Tab15:CreateDivider()
+
+local Section = Tab15:CreateSection("Hubs")
+
+
+
+local Button = Tab15:CreateButton({
+
+   Name = "Unreleased Things Hub",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NetlessScripter/LightningMax/refs/heads/main/Leaked%20TSB%20Stuff"))()
+
+   end
+
+})
+
+
+--atomic
+
+local Section = Tab7:CreateSection("Animation VS Animator")
+
+
+
+local Button = Tab7:CreateButton({
+
+   Name = "The Dark Lord V2",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/refs/heads/main/Dark%20lord"))()
+
+   end
+
+})
+
+
+local Section = Tab7:CreateSection("Solo Leveling")
+
+local Button = Tab7:CreateButton({
+   Name = "Igris",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/sparksnaps/igris/refs/heads/main/Lua"))()
+   end
+})
+
+local Section = Tab7:CreateSection("Jujutsu Kaisen")
+
+local Button = Tab7:CreateButton({
+   Name = "Toji",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/SiS57Qj6"))()
+   end
+})
+
+
+local Section = Tab7:CreateSection("Another")
+
+
+
+local Button = Tab7:CreateButton({
+
+   Name = "Alternative Atomic Samurai",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/CUkCbKfv"))()
+
+   end
+
+})
+
+
+local Section = Tab7:CreateSection("Original")
+
+
+local Button = Tab7:CreateButton({
+   Name = "Cyber Golden Head",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/GOLDENHEAD.lua"))()
+   end
+})
+
+--bat
+
+local Section = Tab6:CreateSection("Original")
+
+
+
+local Button = Tab6:CreateButton({
+
+   Name = "Aphopenia",
+
+   Callback = function()
+
+   getgenv().Music = false --Setting this to false usually fixes most executors. Also it helps load time a little bit
+
+
+
+getgenv().AttackQuality = 'High' --Set to Low,High
+
+
+
+getgenv().ConstantSpeed = false --if you want your speed to be constant
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+
+   end
+
+})
+
+
+
+local Button = Tab6:CreateButton({
+
+   Name = "Alternative Metal Bat",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/DQUG95ca"))()
+
+   end
+
+})
+
+
+
+--monstruo
+
+local Section = Tab3:CreateSection("Original")
+
+
+
+local Button = Tab3:CreateButton({
+
+   Name = "Akiha",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JakeScripterz/Custom-Movesets-Scripts/refs/heads/main/AKIHA_VERMILLION_FIXED.lua"))()
+
+   end
+
+})
+
+
+
+--gerardo pánico
+
+local Section = Tab5:CreateSection("Original")
+
+
+
+local Button = Tab5:CreateButton({
+
+   Name = "Mastery Sonic",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AeryAlex/Scripts/refs/heads/main/True-Sonic%20(OBSFUCTED).lua"))();
+
+   end
+
+})
+
+
+
+local Button = Tab5:CreateButton({
+
+   Name = "Alternative Sonic",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastebin.com/raw/eimtp6Dq"))()
+
+   end
+
+})
+
+
+
+--garou morado 
+
+local Section = Tab9:CreateSection("Solo Leveling")
+
+
+
+local Button = Tab9:CreateButton({
+
+   Name = "Sung Jinn Woo X Igris",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SlimJimShady/sungjin/refs/heads/main/Protected_7329509552810618.lua.txt"))()
+
+   end
+
+})
+
+
+local Button = Tab9:CreateButton({
+   Name = "Beru",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/sparksnaps/Beru/refs/heads/main/Lua"))()
+   end
+})
+
+
+--cyborg
+
+local Section = Tab4:CreateSection("Another")
+
+
+
+local Button = Tab4:CreateButton({
+
+   Name = "Alternative Genos",
+
+   Callback = function()
+
+   loadstring(game:HttpGet("https://pastefy.app/XTBR7ve2/raw"))()
+
+loadstring(game:HttpGet("https://pastefy.app/v2nIIjRS/raw"))()
+
+   end
+
+})
+
+
+local Button = Tab4:CreateButton({
+   Name = "V1",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/6X1rAyEx"))()
+   end
+})
+
+
