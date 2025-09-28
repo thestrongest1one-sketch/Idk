@@ -1,0 +1,106 @@
+ 
+spawn(function()
+end)
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+ 
+ 
+local rightArm = character:FindFirstChild("Right Arm")
+local leftArm = character:FindFirstChild("Left Arm")
+ 
+if not rightArm or not leftArm then
+    warn("Right or Left Arm not found! Ensure this is R6.")
+    return
+end
+ 
+local function createBlade(arm, name, positionOffset, rotation)
+    local blade = Instance.new("Part")
+    blade.Name = name
+    blade.BottomSurface = Enum.SurfaceType.Smooth
+    blade.TopSurface = Enum.SurfaceType.Smooth
+    blade.Size = Vector3.new(0, 1, 2)
+    blade.Anchored = false
+    blade.CanCollide = false
+ 
+    local mesh = Instance.new("SpecialMesh")
+    mesh.Scale = Vector3.new(1, 1, 1)
+    mesh.MeshId = "rbxassetid://132973224383899"
+    mesh.TextureId = "rbxassetid://81448316543904"
+    mesh.MeshType = Enum.MeshType.FileMesh
+    mesh.Parent = blade
+ 
+ 
+    local motor = Instance.new("Motor6D")
+    motor.Part0 = arm
+    motor.Part1 = blade
+    motor.Parent = arm
+ 
+ 
+    motor.C0 = CFrame.new(positionOffset.X, positionOffset.Y, positionOffset.Z) 
+        * CFrame.Angles(math.rad(rotation.X), math.rad(rotation.Y), math.rad(rotation.Z))
+ 
+ 
+    blade.Parent = character
+end
+ 
+ 
+createBlade(
+    rightArm, 
+    "John Doe", 
+    Vector3.new(0.3, 0.5, 0), 
+    Vector3.new(0, 0, 00) 
+)
+ 
+
+  
+spawn(function()
+end)
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+ 
+ 
+local rightArm = character:FindFirstChild("Right Arm")
+local leftArm = character:FindFirstChild("Left Arm")
+ 
+if not rightArm or not leftArm then
+    warn("Right or Left Arm not found! Ensure this is R6.")
+    return
+end
+ 
+local function createBlade(arm, name, positionOffset, rotation)
+    local blade = Instance.new("Part")
+    blade.Name = name
+    blade.BottomSurface = Enum.SurfaceType.Smooth
+    blade.TopSurface = Enum.SurfaceType.Smooth
+    blade.Size = Vector3.new(0, 1, 2)
+    blade.Anchored = false
+    blade.CanCollide = false
+ 
+    local mesh = Instance.new("SpecialMesh")
+    mesh.Scale = Vector3.new(1, 1, 1)
+    mesh.MeshId = "rbxassetid://97474504662193"
+    mesh.TextureId = "rbxassetid://81448316543904"
+    mesh.MeshType = Enum.MeshType.FileMesh
+    mesh.Parent = blade
+ 
+ 
+    local motor = Instance.new("Motor6D")
+    motor.Part0 = arm
+    motor.Part1 = blade
+    motor.Parent = arm
+ 
+ 
+    motor.C0 = CFrame.new(positionOffset.X, positionOffset.Y, positionOffset.Z) 
+        * CFrame.Angles(math.rad(rotation.X), math.rad(rotation.Y), math.rad(rotation.Z))
+ 
+ 
+    blade.Parent = character
+end
+ 
+ 
+createBlade(
+    rightArm, 
+    "John Doe", 
+    Vector3.new(0.3, -1.5, 0), 
+    Vector3.new(0, 0, 00) 
+)
